@@ -1,0 +1,10 @@
+# chromosome-rep1 · multi-phase plan
+
+Current focus: **(none — run /pbg-phase-plan to lay out phases)**
+
+| # | Name | Objective | Status |
+|---|------|-----------|--------|
+
+## Dependency notes
+
+## Open expert questions (cross-phase)
