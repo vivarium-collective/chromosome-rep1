@@ -19,10 +19,10 @@ from pbg_chromosome_rep1.core import build_core
 # installed, so skip the whole module cleanly instead of erroring at
 # collection. It runs normally when the workspace context IS present.
 pytest.importorskip(
-    "pbg_superpowers",
+    "viva_superpowers",
     reason="requires pbg workspace context, not available in model-repo CI",
 )
-from pbg_superpowers.core_introspection import (  # noqa: E402
+from viva_superpowers.core_introspection import (  # noqa: E402
     list_processes, list_types, registry_snapshot,
 )
 
