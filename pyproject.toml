@@ -3,7 +3,7 @@ name = "pbg_chromosome_rep1"
 version = "0.0.0"
 description = "chromosome-rep1 — process-bigraph model"
 requires-python = ">=3.11"
-dependencies = ["process-bigraph", "bigraph-schema"]
+dependencies = ["viva-discovery-engine>=0.1,<0.2", "process-bigraph", "bigraph-schema"]
 
 [project.optional-dependencies]
 dev = ["pytest>=7.4", "pyyaml>=6.0"]

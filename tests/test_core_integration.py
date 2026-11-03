@@ -22,7 +22,7 @@ pytest.importorskip(
     "viva_superpowers",
     reason="requires pbg workspace context, not available in model-repo CI",
 )
-from viva_superpowers.core_introspection import (  # noqa: E402
+from discovery_engine.core_introspection import (  # noqa: E402
     list_processes, list_types, registry_snapshot,
 )
 
